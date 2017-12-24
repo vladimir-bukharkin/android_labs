@@ -1,7 +1,7 @@
 package com.example.vbukharkin.l02.converter;
 
 
-import java.util.HashSet;
+import java.util.ArrayList;
 
 /**
  * Created by v.bukharkin on 24.12.2017.
@@ -13,7 +13,7 @@ public class FreqConverter implements IConverter {
 
     private String[] spinnerElements = new String[freqTypes.length];
     {
-        new HashSet<FreqConverterValue>() {{
+        new ArrayList<FreqConverterValue>() {{
             add(new FreqConverterValue("Герц", 1L));
             add(new FreqConverterValue("Килогерц", 1_000L));
             add(new FreqConverterValue("Мегагерц", 1_000_000L));
