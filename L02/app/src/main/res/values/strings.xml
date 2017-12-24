@@ -3,4 +3,5 @@
     <string name="result">Result</string>
     <string name="input_value">Введите значение</string>
     <string name="text_in_value">Исходная величина</string>
+    <string name="text_out_value">Преобразованная величина</string>
 </resources>

@@ -39,7 +39,7 @@
             android:id="@+id/textout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Конвертируемая величина"
+            android:text="@string/text_out_value"
             android:textAlignment="center"
             android:textColor="@android:color/black" />
 
